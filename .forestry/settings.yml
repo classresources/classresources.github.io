@@ -7,7 +7,6 @@ sections:
 - type: document
   path: CNAME.md
   label: CNAME
-  match: "**/*"
 - type: document
   path: as/math7.html
   label: Math
