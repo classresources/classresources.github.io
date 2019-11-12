@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: as/math7.html
+  label: Math
+  match: "**/*"
+- type: document
   path: classes.html
   label: Classes
   match: "**/*"
