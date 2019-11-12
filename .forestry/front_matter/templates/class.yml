@@ -2,7 +2,7 @@
 label: class
 hide_body: true
 fields:
-- name: classname
+- name: mb-4
   type: text
   config:
     required: false
