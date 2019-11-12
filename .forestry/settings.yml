@@ -7,11 +7,9 @@ sections:
 - type: document
   path: as/math7.html
   label: Math
-  match: "**/*"
 - type: document
   path: classes.html
   label: Classes
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
