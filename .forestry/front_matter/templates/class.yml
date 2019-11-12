@@ -1,4 +1,29 @@
 ---
 label: class
 hide_body: true
-fields: []
+fields:
+- name: classname
+  type: text
+  config:
+    required: false
+  label: classname
+- name: grade
+  type: number
+  label: grade
+  description: grade of class
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: classdescription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: classdescription
+  description: includes description and link
