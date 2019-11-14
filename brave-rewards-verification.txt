@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: class-resources.com
+Token: aa66e1f4198079732597950bc6e427f77d03e8dc848fcad0fe8d523e0aa9629c
