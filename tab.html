@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1000">
+    <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
+<script>
+    window.onload = function() {
+  clock();  
+    function clock() {
+    var now = new Date();
+    var TwentyFourHour = now.getHours();
+    var hour = now.getHours();
+    var min = now.getMinutes();
+    var sec = now.getSeconds();
+    var mid = 'pm';
+    if (min < 10) {
+      min = "0" + min;
+    }
+    if (hour > 12) {
+      hour = hour - 12;
+    }    
+    if(hour==0){ 
+      hour=12;
+    }
+    if(TwentyFourHour < 12) {
+       mid = 'am';
+    }     
+  document.getElementById('currentTime').innerHTML =     hour+':'+min+':'+sec +' '+mid ;
+    setTimeout(clock, 1000);
+    }
+}
+</script>
+  <title>New Tab - Class Resources</title>
+    <link rel="stylesheet" href="https://www.class-resources.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.class-resources.com/css/unicons.css">
+    <link rel="stylesheet" href="https://www.class-resources.com/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.class-resources.com/css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="https://www.class-resources.com/css/tooplate-style.css">
+</head>
+<body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.class-resources.com"><i class='uil uil-user'></i> Class Resources</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    
+                    <li class="nav-item">
+                        
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        dark mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+
+      
+      <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">It Is</span>
+                                <div class="animated-info">
+                                    
+<h2 id="currentTime"></h2>
+
+                                </div>
+                        </h1>
+
+        
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://www.class-resources.com/classes.html" class="btn custom-btn custom-btn-bg custom-btn-link">View the Classes</a>
+                        </div>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+   <center>
+                <h1>Information</h1>
+</center>
+    
+<div data-type="countdown" data-id="1617568" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/1617568/christmas" title="Christmas">Countdown to Christmas</a><a href="//www.tickcounter.com/" title="Countdown">Countdown to Christmas</a></div>
+    <br>
+    <br>
+    <center>
+    <iframe src="https://www.snowdaycalculator.com/prediction.php?zipcode=10075&snowdays=0" width="80%" height="560px" scrolling="no"></iframe>
+</center>
+ 
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2019 Class Resources . All rights reserved</p>
+                    
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="https://www.class-resources.com/js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.class-resources.com/js/popper.min.js"></script>
+    <script src="https://www.class-resources.com/js/bootstrap.min.js"></script>
+    <script src="https://www.class-resources.com/js/Headroom.js"></script>
+    <script src="https://www.class-resources.com/js/jQuery.headroom.js"></script>
+    <script src="https://www.class-resources.com/js/owl.carousel.min.js"></script>
+    <script src="https://www.class-resources.com/js/smoothscroll.js"></script>
+    <script src="https://www.class-resources.com/js/custom.js"></script>
+
+  <script src="tab.js"></script>
+</body>
+</html>
