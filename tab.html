@@ -4,31 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=1000">
 <script>
-    window.onload = function() {
-  clock();  
-    function clock() {
-    var now = new Date();
-    var TwentyFourHour = now.getHours();
-    var hour = now.getHours();
-    var min = now.getMinutes();
-    var sec = now.getSeconds();
-    var mid = 'pm';
-    if (min < 10) {
-      min = "0" + min;
-    }
-    if (hour > 12) {
-      hour = hour - 12;
-    }    
-    if(hour==0){ 
-      hour=12;
-    }
-    if(TwentyFourHour < 12) {
-       mid = 'am';
-    }     
-  document.getElementById('currentTime').innerHTML =     hour+':'+min+':'+sec +' '+mid ;
-    setTimeout(clock, 1000);
-    }
-}
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
 </script>
       <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
 
@@ -84,7 +61,7 @@
                             <span class="mr-2">It Is</span>
                                 <div class="animated-info">
                                     
-<h2 id="currentTime"></h2>
+<h2><span id="datetime"></span></h2>
 
                                 </div>
                         </h1>
